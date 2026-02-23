@@ -1,0 +1,210 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 6
+      h1 Medios tecnológicos en el servicio al cliente
+
+    .row.justify-content-between.mb-5
+      .col-lg-6.col-lg-4
+
+          figure
+            img(src='@/assets/curso/temas/tema6/img-1.png')
+
+      .col-lg-6.col-lg-8
+        p.mb-5 La aplicación de la tecnología en el servicio al cliente se ha visto más necesaria en la actualidad, debido a que los consumidores (clientes) están más conectados y requieren una atención rápida, personalizada y permanente.
+        .cajon.color-acento-botones.p-4.mb-4.fnd-8
+          p Las herramientas tecnológicas pueden ser aplicadas en todas las áreas relacionadas con la atención al cliente, desde la aplicación de encuestas de satisfacción #[em online], para obtener retroalimentación del cliente, hasta el uso de plataformas de <em>Customer Experience,</em> aplicaciones móviles, herramientas de inteligencia artificial, entre otros.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.justify-content-center
+          .col-lg-8
+            p.mb-5 Entre esta amplia gama de soluciones tecnológicas, lo importante es elegir aquella que aporte más beneficios para los clientes, así que antes de adquirir una herramienta, se debe definir claramente cuáles son los objetivos que persigue la empresa y los requisitos para poder alcanzarlos.
+          .col-lg-4
+            p.text-black.mb-5 Tenga en cuenta los perfiles de los grupos de interés (clientes) para elegir las herramientas tecnológicas más adecuadas que permitan mantener una comunicación asertiva.
+
+        .bloque-texto-e.p-4
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            p.text-regular El consumidor actual es multicanal, y como cuenta con gran diversidad de opciones de productos y servicios, prefiere tener a su disposición, varios canales de comunicación disponibles para cuando desee contactarse.
+            i.fas.fa-quote-right
+          .row.align-items-end
+            .col
+              .bloque-texto-e__autor
+                b.mb-0 Bueno A. (2021)
+
+    p.mb-5 En la siguiente tabla, se identifican algunas de las diferentes opciones tecnológicas, que las empresas pueden utilizar para fortalecer sus canales de comunicación y servicio.
+
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 1
+      p #[i Opciones tecnológicas]
+
+    .tabla-a.color-acento-contenido.mb-5.tb
+      table
+        caption.fnd-5 Nota.  Nota. Esta tabla representa las opciones tecnológicas contemporáneas a partir de su descripción y ventajas. Tomado de “La tecnología, una herramienta de servicio al cliente” (p. 20), por Bueno. A, 2021.https://repository.unimilitar.edu.co/bitstream/handle/10654/39544/BuenoRodriguezAdrianaLissette2021.pdf?sequence=3&isAllowed=y
+
+        thead.fnd-1
+          tr
+            th Tecnología
+            th Descripción
+            th Ventajas
+
+        tbody
+          tr
+            td.text-black Automatización robótica de procesos (RPA)
+            td Creación y automatización de procesos operativos, a través de un robot.
+            td Disminución en los tiempos de respuesta, clasificación de necesidades, aumento de la productividad, disminución de tasas de error y reprocesos.
+
+          tr
+            td.text-black <em>Chatbots</em>
+            td <em>Software</em> capaz de mantener una conversación en tiempo real por texto o por voz. Atención automatizada para el servicio al cliente.
+            td Facilita la autogestión de los clientes y contribuye a la disminución de tiempos de respuesta.
+
+          tr
+            td.text-black Motores <em>Insight</em>
+            td Estructuración de algoritmos para procesamientos de datos y fuentes, a grandes velocidades, creando ecosistemas de registro.
+            td Permite el análisis de información estructurada y no estructurada en línea, además predice el comportamiento de los clientes.
+
+          tr
+            td.text-black Sistema de reconocimiento de análisis de voz
+            td Aplicación de reconocimiento de voz, soportada en IA para el análisis de los sentimientos.
+            td Autenticación de clientes, conocer mejor al cliente, anticiparse a sus necesidades.
+
+          tr
+            td.text-black Asistente Virtual (IVAS)
+            td Asistente (robot) que puede interactuar de forma natural, basado en lenguaje conversacional con el cliente.
+            td Autoaprendizaje todo el tiempo, proporciona nuevas experiencias personalizadas al cliente.
+
+    h3(data-aos="fade-right").mb-4
+      i.fas.fa-square.cac.me-3
+      |Sistema de información
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .bloque-texto-e.p-4.mb-3
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            p.text-regular Un sistema de información es una combinación organizada de personas, <em>hardware</em>, <em>software</em>, redes de comunicaciones y recursos de datos que reúne, transforma y disemina información en una organización.
+
+            i.fas.fa-quote-right
+          .row.align-items-end
+            .col
+              .bloque-texto-e__autor
+                b.mb-0 O´Brien, James (2001)
+
+        p.mb-5 Dentro de las organizaciones se considera que los sistemas de información permiten mejorar la efectividad gerencial, son de gran provecho para apoyar la planeación, organización, toma de decisiones, coordinación y el control, ayudan a los gerentes y al personal a analizar, detectar y solucionar problemas, concebir asuntos complejos y crear nuevos productos y/o servicios.
+      .col-lg-5
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema6/img-2.png')
+
+    .row.justify-content-center.mb-5
+      .col-md-8.col-lg-8
+        .bloque-texto-a.color-primario.fnd-bizq2.p-4.p-md-5.mb-5
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-6
+              .bloque-texto-a__texto.p-4.mb-sm-3
+                p La aplicación de las nuevas tecnologías tiene un impacto significativo sobre la línea de producción de una empresa ya que contribuye a alcanzar las metas propuestas y a desarrollar ventajas competitivas y sostenibles.
+            .col-lg-6.mb-4.mb-lg-0
+              p.text-black Dichos sistemas trabajan de forma incorporada, atendiendo a diversos intereses empresariales, se pueden aplicar en niveles estratégicos, misionales, operativos o tácticos.
+
+    p.mb-5 A continuación, se relacionan los sistemas de información más conocidos y aplicados en el ámbito empresarial.
+
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="ERP")
+        .row
+          .col-lg-6.mb-4.mb-md-0
+              figure
+                img.img-400(src='@/assets/curso/temas/tema6/img-3.png')
+
+          .col-lg-6.mb-4.mb-md-0
+            h3 <br> #[em Enterprise Resource Planning] (Planeamiento de Recursos de la Empresa)
+            p Es un <em>software</em> que une, en un solo sitio, los diferentes procesos y datos de la organización.
+            p Los datos otorgados por un ERP ayudan a traer más velocidad a los procesos y permiten llevar a cabo la producción por demanda, también llamado el modelo productivo <strong><em> just in time</em></strong>.
+            p La finalidad de un ERP es minimizar los #[i stocks] innecesarios hasta eliminarlos, para evitar los costos de almacenamiento.
+
+      .py-3.py-md-4(titulo="CRM")
+        .row
+          .col-lg-6.mb-4.mb-md-0
+              figure
+                img.img-400(src='@/assets/curso/temas/tema6/img-4.png')
+
+          .col-lg-6
+            h3 <em>Customer Relationship Management </em><br> (Administración de Interacción con el Cliente)
+            p <em>Customer Relationship Management</em> (Administración de Interacción con el Cliente) es un<em> software</em> que automatiza cada una de las funcionalidades relativas al contacto con los consumidores, permitiendo que las empresas recolecten y almacenen los datos de contacto, las preferencias de los consumidores, el histórico de compras, entre otros.
+            br
+            p Con el uso de un CRM la organización puede contactar a los consumidores para acciones concretas, con el objetivo de atender a las necesidades de los clientes de forma anticipada.
+
+      .py-3.py-md-4(titulo="SCM")
+        .row
+          .col-lg-6.mb-4.mb-md-0
+              figure
+                img.img-400(src='@/assets/curso/temas/tema6/img-5.png')
+          .col-lg-6.mb-4.mb-md-0
+            h3 <em>Supply Chain Management</em> <br> (Gestión de la Cadena de Suministro)
+            p El objetivo de los sistemas<em> Supply Chain Management </em>(Gestión de la Cadena de Suministro) es producir costo para el consumidor, satisfaciéndolo una vez que él consigue un producto o servicio.
+            br
+            p Este sistema integra los datos relativos a productores, proveedores y puntos de venta de comercialización, garantizando que los productos sean entregados en las porciones primordiales y en los plazos convenientes, evitando la carencia de mercancía o el exceso de #[i stock].
+      .py-3.py-md-4(titulo="SIG")
+        .row
+          .col-lg-6.mb-4.mb-md-0
+              figure
+                img.img-400(src='@/assets/curso/temas/tema6/img-6.png')
+          .col-lg-6.mb-4.mb-md-0
+            h3 Sistemas de Información Gerenciales
+            p Los Sistemas de Información Gerenciales son dirigidos hacia la ayuda en la toma de elecciones, se aplica en los niveles de la organización más altos.
+            br
+            p Este sistema es la aplicación de elementos como personas, tecnologías y procedimientos, se caracteriza porque para su funcionamiento y aplicación, utiliza otros sistemas aplicados en las actividades operacionales de la organización.
+
+    h3 Manejo de bases de datos
+
+    .row.justify-content-center.mb-5
+      .col-md-8.col-lg-10
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-1-
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4
+                p.text-black Una base de datos es la materia prima para la interacción con los clientes y las campañas de<em> marketing,</em> debido a que posibilita la utilización de una comunicación personalizada y dirigida.
+            .col-lg-8.mb-4.mb-lg-0
+              .bloque-texto-a__texto.p-4.mb-sm-3
+                p Las bases de consumidores se caracterizan por:
+                ul.lista-ul--color.gre
+                  li
+                    i.fas.fa-check
+                    | Estar incorporadas por datos que se relacionan, sin embargo, son independientes.
+                  li
+                    i.fas.fa-check
+                    | Permite entrar un enorme conjunto de usuarios.
+                  li
+                    i.fas.fa-check
+                    | Los datos tienen que ser confiables y estar salvaguardados y respaldados.
+                  li
+                    i.fas.fa-check
+                    | Deben ser de fácil acceso.
+
+</template>
+
+<script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
+export default {
+  name: 'Tema1',
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
+  data: () => ({
+    // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<style lang="sass"></style>
