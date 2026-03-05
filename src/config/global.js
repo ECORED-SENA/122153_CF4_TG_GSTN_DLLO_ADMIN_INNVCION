@@ -168,12 +168,11 @@ export default {
       link:
         'https://repository.unimilitar.edu.co/bitstream/handle/10654/39544/BuenoRodriguezAdrianaLissette2021.pdf?sequence=3&isAllowed=y ',
     },
-
     {
       referencia:
         'Camacho Castellanos, J. C. (2012).<em> Marketing de servicios.</em> B - EUMED.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/34494?page=17 ',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/34494?page=17',
     },
     {
       referencia:
@@ -189,13 +188,12 @@ export default {
       referencia:
         'Pérez Rodríguez, M. D. (Coord.). (2012). <em>Calidad de servicio y Atención al Cliente </em>(2a. ed.). Editorial ICB. ',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/113201?page=1 ',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/113201?page=1',
     },
     {
       referencia:
         'Tur-Viñes, V. & Monserrat-Gauchi, J. (2014). <em> El plan estratégico de comunicación. Estructura y Funciones. Razón y Palabra,</em> (88). ',
-      link:
-        'http://www.razonypalabra.org.mx/N/N88/Varia/46_VinesGauchi_V88.pdf ',
+      link: 'https://www.redalyc.org/articulo.oa?id=199532731046',
     },
     {
       referencia:
